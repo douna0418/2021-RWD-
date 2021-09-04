@@ -1,0 +1,20 @@
+.form-square{
+    background-color: #EAF0ED;
+    min-height: 56px;
+    &.form-with-icon{
+        padding-left: 60px;
+        position:relative;
+    }
+    .form-icon{
+        height: 24px;
+        position: absolute;
+        top: 18px;
+        left: 18px;
+    }
+    .form-input{
+        width: 100%;
+        border: hidden;
+        background-color: transparent;
+        outline:transparent;
+    }
+}

@@ -1,0 +1,50 @@
+.item-card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    .item-img{
+        min-height: 315px;
+    }
+    .item-body{
+        border: #EAF0ED 1px solid;
+        align-items: center;
+    }
+    .item-name{
+        font-size: 1.25rem;
+        border-right: #EAF0ED 1px solid;
+        text-align: center;
+    }
+
+    .item-price{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+    .btn-light-green{
+        background-color: #EAF0ED;
+        color: #3F5D45;
+        font-weight: 600;
+        font-size: 24px;
+        &:hover {
+            background-color: #8DA291;
+        }
+    }
+
+    .item-tag{
+     position: absolute;
+     left: 20px;
+     top: 0;   
+     writing-mode: vertical-lr;
+     background-color: #3F5D45;
+     color: #EAF0ED;
+     font-weight: bolder;
+     letter-spacing: 5px;
+     padding: 10px;
+    }
+
+    .item-icon{
+        position: absolute;
+        right: 20px;
+        top:20px;
+    }
+}
+

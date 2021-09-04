@@ -1,0 +1,14 @@
+.u-checked-display{
+    cursor:pointer;
+    .u-checkbox,.u-like{
+        display: none;
+    }
+    .u-checkbox:checked{
+        & ~ .u-border{
+            display: none;
+        }
+        & ~ .u-like{
+            display:block;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "./helpers/variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "./components/header";
+@import "./components/utilities";
+@import "./components/itemCard";
+@import "./components/section";
+@import "./components/form-square";
+
+@import "./components/interact"

@@ -1,0 +1,28 @@
+.zindex--1{
+    z-index: -1;
+}
+
+.side{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.bg-cover{
+    background-size:cover;
+    background-position: center center;
+}
+
+.bg-light-green{
+    background-color: #EAF0ED;
+}
+
+.writting-md-vertical{
+    writing-mode: vertical-rl;
+}
+
+.h-100{
+    height: 100%;
+}
